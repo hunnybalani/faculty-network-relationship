@@ -16,16 +16,17 @@ This project forms networks for faculty based on department, research groups and
 - Run the database/database_insertion_script.sql on MySQL server
 - Install the following repositories
   ```bash
-  virtualenv
-  flask
+  pip install flask
+  pip install flask_sqlalchemy
+  pip install mysql-connector-python
   ```
-- Activate the virtual environment using the required command
+- Activate the virtual environment using the required command under /backend directory
     ```bash
-    virtualenv env
+    python3 -m venv env
     ```
   - MacOS or Unix
     ```bash
-    source venv/bin/activate
+    source env/bin/activate
     ```
   - Windows
     ```bash
